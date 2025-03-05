@@ -4,6 +4,69 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Navbar styles */
+      .navbar {
+      position: fixed;
+      top: 140px; /* Align with menu button */
+      left: -35px; /* Initially same as menu button */
+      height: 50px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 25px;
+      transition: width 0.3s ease, opacity 0.3s ease, right 0.3s ease;
+      z-index: 900;
+      width: 0;
+      overflow: hidden;
+      opacity: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 0;
+      }
+      
+      .navbar.active {
+        width: 400px; /* Adjust based on your needs */
+        opacity: 1;
+      }
+      
+      .navbar-items {
+        display: flex;
+        flex-direction: row;
+        padding: 0 20px;
+        width: 100%;
+        justify-content: space-between;
+        white-space: nowrap;
+      }
+      
+      .navbar-item {
+        padding: 10px 15px;
+        font-size: 16px;
+        color: #333;
+        text-decoration: none;
+        border-radius: 20px;
+        transition: background-color 0.2s;
+      }
+      
+      .navbar-item:hover {
+        background-color: #f5f5f5;
+      }
+      
+      .navbar-item.active {
+        background-color: #e6e6e6;
+        font-weight: bold;
+      }
+      
+      /* Menu button styles */
+      .menu-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        position: relative;
+        z-index: 1000;
+      }
+    </style>
   </head>
   <body>
     <div class="macbook-pro">
@@ -56,9 +119,43 @@
             <div class="text-wrapper-9">7500</div>
           </div>
         </div>
-        <img class="frame-7" src="menu.png" />
+        
+        <!-- Horizontal Navbar -->
+        <nav class="navbar" id="navbar">
+          <div class="navbar-items">
+            <a href="#" class="navbar-item active">Home</a>
+            <a href="#" class="navbar-item">Health</a>
+            <a href="#" class="navbar-item">Profile</a>
+            <a href="#" class="navbar-item">Blog</a>
+            <a href="#" class="navbar-item">Tip</a>
+          </div>
+        </nav>
+        
+        <!-- Menu Button -->
+        <button class="menu-button" id="menuButton">
+          <img class="frame-7" src="menu.png" />
+        </button>
+        
         <img class="logo" src="logo.png" />
       </div>
     </div>
+    
+    <script>
+      // Get DOM elements
+      const menuButton = document.getElementById('menuButton');
+      const navbar = document.getElementById('navbar');
+      
+      // Toggle navbar when menu button is clicked
+      menuButton.addEventListener('click', function() {
+        navbar.classList.toggle('active');
+      });
+      
+      // Close navbar when clicking outside
+      document.addEventListener('click', function(event) {
+        if (!navbar.contains(event.target) && !menuButton.contains(event.target)) {
+          navbar.classList.remove('active');
+        }
+      });
+    </script>
   </body>
 </html>

@@ -1,0 +1,336 @@
+.macbook-pro {
+  background-color: #0e0f10;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.macbook-pro .div {
+  background-color: #0e0f10;
+  width: 1728px;
+  height: 1117px;
+  position: relative;
+}
+
+.macbook-pro .overlap {
+  position: absolute;
+  width: 1159px;
+  height: 268px;
+  top: 208px;
+  left: 21px;
+}
+
+.macbook-pro .group {
+  position: absolute;
+  width: 1136px;
+  height: 226px;
+  top: 42px;
+  left: 0;
+}
+
+.macbook-pro .overlap-group {
+  position: relative;
+  width: 1132px;
+  height: 226px;
+}
+
+.macbook-pro .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Geist-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .text-wrapper-2 {
+  position: absolute;
+  top: 109px;
+  left: 0;
+  font-family: "Geist-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 90px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .frame {
+  position: absolute;
+  width: 166px;
+  height: 50px;
+  top: 0;
+  left: 993px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.macbook-pro .text-wrapper-3 {
+  position: absolute;
+  top: 13px;
+  left: 69px;
+  font-family: "Geist-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-pro .calendar {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  top: 8px;
+  left: 5px;
+}
+
+.macbook-pro .frame-2 {
+  position: absolute;
+  width: 470px;
+  height: 999px;
+  top: 59px;
+  left: 1228px;
+  background-color: #1d1d1f;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.macbook-pro .profile-png {
+  position: absolute;
+  width: 196px;
+  height: 207px;
+  top: 30px;
+  left: 137px;
+}
+
+.macbook-pro .text-wrapper-4 {
+  position: absolute;
+  top: 244px;
+  left: 191px;
+  font-family: "Geist-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 3.60px;
+  line-height: normal;
+}
+
+.macbook-pro .text-wrapper-5 {
+  position: absolute;
+  top: 275px;
+  left: 159px;
+  font-family: "Geist-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 2.40px;
+  line-height: normal;
+}
+
+.macbook-pro .group-2 {
+  position: absolute;
+  width: 369px;
+  height: 176px;
+  top: 359px;
+  left: 51px;
+}
+
+.macbook-pro .frame-3 {
+  position: absolute;
+  width: 133px;
+  height: 176px;
+  top: 0;
+  left: 0;
+  background-color: #272727;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: transparent;
+}
+
+.macbook-pro .overlap-group-2 {
+  position: absolute;
+  width: 36px;
+  height: 56px;
+  top: 11px;
+  left: 15px;
+}
+
+.macbook-pro .img {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 0;
+  left: 0;
+}
+
+.macbook-pro .text-wrapper-6 {
+  position: absolute;
+  top: 35px;
+  left: 3px;
+  font-family: "Geist-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1.12px;
+  line-height: normal;
+}
+
+.macbook-pro .element {
+  position: absolute;
+  width: 91px;
+  top: 97px;
+  left: 21px;
+  font-family: "Geist-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 3.36px;
+  line-height: normal;
+}
+
+.macbook-pro .span {
+  letter-spacing: 1.61px;
+}
+
+.macbook-pro .text-wrapper-7 {
+  font-size: 15px;
+  letter-spacing: 0.16px;
+}
+
+.macbook-pro .frame-4 {
+  position: absolute;
+  width: 133px;
+  height: 176px;
+  top: 0;
+  left: 236px;
+  background-color: #272727;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.macbook-pro .overlap-2 {
+  position: absolute;
+  width: 80px;
+  height: 56px;
+  top: 11px;
+  left: 16px;
+}
+
+.macbook-pro .text-wrapper-8 {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  font-family: "Geist-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1.12px;
+  line-height: normal;
+}
+
+.macbook-pro .heart {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 8px;
+  left: 8px;
+}
+
+.macbook-pro .element-bpm {
+  position: absolute;
+  width: 108px;
+  top: 97px;
+  left: 13px;
+  font-family: "Geist-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 3.36px;
+  line-height: normal;
+}
+
+.macbook-pro .frame-5 {
+  position: absolute;
+  width: 133px;
+  height: 176px;
+  top: 657px;
+  left: 51px;
+  background-color: #272727;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.macbook-pro .overlap-3 {
+  position: absolute;
+  width: 88px;
+  height: 56px;
+  top: 11px;
+  left: 16px;
+}
+
+.macbook-pro .element-hrs {
+  position: absolute;
+  top: 97px;
+  left: 16px;
+  font-family: "Geist-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 3.36px;
+  line-height: normal;
+}
+
+.macbook-pro .frame-6 {
+  position: absolute;
+  width: 133px;
+  height: 176px;
+  top: 657px;
+  left: 287px;
+  background-color: #272727;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.macbook-pro .overlap-4 {
+  position: absolute;
+  width: 89px;
+  height: 56px;
+  top: 11px;
+  left: 16px;
+}
+
+.macbook-pro .text-wrapper-9 {
+  position: absolute;
+  top: 102px;
+  left: 10px;
+  font-family: "Geist-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 2.80px;
+  line-height: normal;
+}
+
+.macbook-pro .frame-7 {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 131px;
+  left: 1125px;
+}
+
+.macbook-pro .logo {
+  position: absolute;
+  width: 259px;
+  height: 49px;
+  top: 21px;
+  left: 30px;
+}
